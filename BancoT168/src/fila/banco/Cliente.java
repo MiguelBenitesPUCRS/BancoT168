@@ -38,7 +38,7 @@ public class Cliente {
 	}
 	
 	/**
-	 * Construtur do cliente, com um ID e a idade do cliente...
+	 * Construtor do cliente, com um ID e a idade do cliente...
 	 * @param id
 	 * @param idade
 	 */
