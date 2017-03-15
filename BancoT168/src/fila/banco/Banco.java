@@ -4,7 +4,38 @@ import java.util.ArrayList;
 
 public class Banco {
 
-
+	//lista de caixas...
+	ArrayList lstCaixas = new ArrayList<>();
+	
+	//Cria uma caixa e insere na lista...
+	public void abreCaixa(int numero){
+		Caixa caixa = new Caixa(numero);
+		lstCaixas.add(caixa);
+	}
+	
+	//Retorna a os Caixas abertos...
+	public String statusCaixas(){
+		return lstCaixas.toString();
+	}
+	
+	//Retorna a quantidade de caixas abertos..
+	public int qtdCaixas(){
+		return lstCaixas.size();
+	}
+	
+	
+	
+	
+	
+	//Clientes
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
