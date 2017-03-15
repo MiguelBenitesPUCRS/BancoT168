@@ -2,7 +2,7 @@ package fila.banco;
 
 import java.util.ArrayList;
 
-public class App {
+public class Banco {
 
 
 	
