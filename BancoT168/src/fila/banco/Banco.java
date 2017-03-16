@@ -115,8 +115,7 @@ public class Banco {
 				Caixa aux;
 				aux = (Caixa) lstCaixas.get(i);
 				if (aux.getNumero()<=5){
-					
-					if
+			
 					
 					
 					
