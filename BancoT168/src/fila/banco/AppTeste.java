@@ -9,7 +9,7 @@ public class AppTeste {
 		banco.abreCaixa(2);
 		banco.abreCaixa(10);
 		
-		System.out.println("Caixas: "+banco.retornaCaixas());
+		System.out.println("[Caixas Abertos: "+banco.retornaCaixas()+"]");
 		
 		
 		banco.addCliente(banco.criaCliente(70));

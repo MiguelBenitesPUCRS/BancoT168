@@ -96,12 +96,44 @@ public class Banco {
 	
 	public void atender(){
 		
-		// retorna o PRIMEIRO cliente da fila de prioritários
-		// verifica se há algum caixa prioritário livre
+		// retorna o PRIMEIRO cliente da fila de prioritï¿½rios
+		// verifica se hï¿½ algum caixa prioritï¿½rio livre
 		// se tiver adiciona o cliente na fila
+		
+		
+		ArrayList lstAux = new ArrayList<>();
 		
 		Cliente prioritario;
 		prioritario = (Cliente) lstFilaPrioritaria.get(0);
+		
+		Boolean token = false;
+		
+		
+		while (token==false){
+			
+			for(int i=0;i<lstFilaPrioritaria.size();i++){
+				Caixa aux;
+				aux = (Caixa) lstCaixas.get(i);
+				if (aux.getNumero()<=5){
+					
+					if
+					
+					
+					
+					
+				}
+			}
+			
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+		
 		
 		//encontra um caixa para atender...
 		for(int i=0; i<lstCaixas.size(); i++){
@@ -109,8 +141,8 @@ public class Banco {
 			Cliente cliente;
 			aux = (Caixa) lstCaixas.get(i);
 			
-			//se o caixa tiver o número menor que 5
-			//e o caixa não tiver ninguém em atendimento
+			//se o caixa tiver o nï¿½mero menor que 5
+			//e o caixa nï¿½o tiver ninguï¿½m em atendimento
 			if (aux.getNumero() <=5){
 				if (aux.getCliente()==null){
 					String strAtende = aux.atendeCliente(prioritario);
