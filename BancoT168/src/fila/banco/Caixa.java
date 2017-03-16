@@ -31,6 +31,14 @@ public class Caixa {
 	}
 	
 	/**
+	 * Altera o cliente
+	 * @param cli
+	 */
+	public void setCliente(Cliente cli){
+		cliente = cli;
+	}
+	
+	/**
 	 * atende o cliente, recebe um cliente como parâmetro...
 	 * @param cliente
 	 * @return
