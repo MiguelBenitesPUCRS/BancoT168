@@ -9,8 +9,9 @@ public class AppTeste {
 		banco.abreCaixa(2);
 		banco.abreCaixa(10);
 		
-		System.out.println("[Caixas Abertos: "+banco.retornaCaixas()+"]");
+		System.out.println("[Caixas Abertos: "+banco.retornaCaixasComClientes()+"]");
 		
+		System.out.println("[Caixas Vazios : "+banco.retornaStatusCaixas()+"]");
 		
 		banco.addCliente(banco.criaCliente(70));
 		banco.addCliente(banco.criaCliente(65));
@@ -22,8 +23,14 @@ public class AppTeste {
 		
 		System.out.println(banco.retornaClientes());
 		
+		banco.atender();	
+		System.out.println("[Situacao Caixas: "+banco.retornaCaixasComClientes()+"]");	
 		
+		banco.atender();
+		System.out.println("[Situacao Caixas: "+banco.retornaCaixasComClientes()+"]");
 		
+		banco.atender();
+		System.out.println("[Situacao Caixas: "+banco.retornaCaixasComClientes()+"]");
 		
 	}
 }

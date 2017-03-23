@@ -55,11 +55,11 @@ public class Caixa {
 	 * verifica se o caixa está vazio...
 	 * @return
 	 */
-	public String isEmpty(){
+	public boolean isEmpty(){
 		if (this.getCliente()==null){
-			return "True";
+			return true;
 		}
-		return "False";
+		return false;
 	}
 	
 	/**
