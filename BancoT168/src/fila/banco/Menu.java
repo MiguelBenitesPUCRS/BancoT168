@@ -22,13 +22,13 @@ public class Menu {
 		banco.addCliente(banco.criaCliente(21));
 		banco.addCliente(banco.criaCliente(23));
     	
-    	System.out.println("######                                         #    #####   #####"); 
-        System.out.println("#     #   ##   #    #  ####   ####     #####  ##   #     # #     #");
-        System.out.println("#     #  #  #  ##   # #    # #    #      #   # #   #       #     #") ;
-        System.out.println("######  #    # # #  # #      #    #      #     #   ######   #####")  ;
-        System.out.println("#     # ###### #  # # #      #    #      #     #   #     # #     #") ;
-        System.out.println("#     # #    # #   ## #    # #    #      #     #   #     # #     #") ;
-        System.out.println("######  #    # #    #  ####   ####       #   #####  #####   #####") ;
+    	System.out.println("######                                         #    #####   #####    ******"); 
+        System.out.println("#     #   ##   #    #  ####   ####     #####  ##   #     # #     #   ******");
+        System.out.println("#     #  #  #  ##   # #    # #    #      #   # #   #       #     #   ******") ;
+        System.out.println("######  #    # # #  # #      #    #      #     #   ######   #####    ******")  ;
+        System.out.println("#     # ###### #  # # #      #    #      #     #   #     # #     #   ******") ;
+        System.out.println("#     # #    # #   ## #    # #    #      #     #   #     # #     #   ******") ;
+        System.out.println("######  #    # #    #  ####   ####       #   #####  #####   #####    ******") ;
         System.out.println("\nby Miguel Benites - 2017");
         System.out.println("---------------------------------------------------------------------------");
         System.out.println("*************************** Status do Banco *******************************");
